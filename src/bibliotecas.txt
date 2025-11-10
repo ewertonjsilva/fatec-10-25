@@ -1,0 +1,6 @@
+React Icons
+npm i react-icons
+
+React Responsive Carousel
+npm i react-responsive-carousel
+

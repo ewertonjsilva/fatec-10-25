@@ -1,9 +1,13 @@
+import Image from "next/image"
+
+import styles from "./page.module.css";
 
 export default function Sobre() {
-    return(
+    return (
         <div>
-            <h1>Sobre</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi voluptatibus amet eius rerum fugiat debitis expedita et quo cupiditate officia, delectus perspiciatis eos dolore exercitationem voluptatum illo perferendis voluptate vero.</p>
+            <h3 className={styles.tituloConstrucao}>Página em construção</h3>
+            <p className={styles.textoConstrucao}>Estamos trabalhando nesta página, tente novamente em breve.</p>
+            <Image src="/emconstrucao.svg" alt="emconstrucao" width="730" height="450" />
         </div>
-    );
+    )
 }
