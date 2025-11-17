@@ -43,7 +43,25 @@ const produtos = [
         "icone": icoPorcao,
         "imgProduto": batata,
         "descricao": "Batata de qualidade internacional."
-    }
+    }, 
+    {
+        "id": 5,
+        "nome": "Batata frita 2",
+        "valor": "25.40",
+        "unidade": "un.",
+        "icone": icoPorcao,
+        "imgProduto": batata,
+        "descricao": "Batata de qualidade internacional."
+    }, 
+    {
+        "id": 6,
+        "nome": "Batata frita 3",
+        "valor": "25.40",
+        "unidade": "un.",
+        "icone": icoPorcao,
+        "imgProduto": batata,
+        "descricao": "Batata de qualidade internacional."
+    }, 
 ]; 
 
 export default produtos;
